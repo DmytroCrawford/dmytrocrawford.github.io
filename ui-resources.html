@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>UI Resources</title>
+        <link class="googlefont" href="https://fonts.googleapis.com/css2?family=Ovo&display=swap" rel="stylesheet">
+        <style type="text/css" style="display:block">
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-size: 100%;
+                font-weight: inherit;
+            }
+            body {
+                background: #ffffff;
+                color: #000fff;
+                width: 100%;
+            }
+            .text {
+                font-family: "Ovo", serif;
+                font-size: 4.4vw;
+                line-height: 4.4vw;
+                font-variant-ligatures: normal;
+                padding: 1.76vw 3vw;
+            }
+            h2, p, ul li {
+                opacity: 0;
+                visibility: hidden;
+                animation: fadein 0.5s forwards ease-out;
+            }
+            h2 {
+                animation-delay: 0.1s;
+            }
+            p {
+                font-size: 2vw;
+                animation-delay: 0.2s;
+            }
+            ul li {
+                animation-delay: calc(0.3s + var(--delay, 0s));
+            }
+            ul {
+                list-style: none;
+                padding: 0;
+            }
+            li {
+                margin-bottom: 0.5vw;
+            }
+            a {
+                text-decoration: underline;
+                text-decoration-skip: ink;
+                color: inherit;
+                cursor: pointer;
+            }
+            a:hover {
+                text-decoration: none;
+            }
+            a:focus {
+                text-decoration: none;
+                outline: solid 4px rgba(0, 0, 0, 0.4);
+            }
+            @keyframes fadein {
+                0% {
+                    opacity: 0;
+                    margin-top: 1.5vw;
+                    visibility: hidden;
+                }
+                100% {
+                    opacity: 1;
+                    margin-top: 0;
+                    visibility: visible;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="text">
+            <h2 style="font-size: 3vw; animation-delay: 0.1s">UI Resources</h2>
+            <p style="animation-delay: 0.2s;">Here are some useful UI resources to help you design and build better interfaces:</p>
+           
+            <h2 style="animation-delay: 0.3s;">UI Inspiration</h2>
+            <ul>
+                <li style="animation-delay: 0.3s;"><a target="_blank" href="https://dribbble.com/">Dribbble</a></li>
+                <li style="animation-delay: 0.3s;"><a target="_blank" href="https://www.behance.net/">Behance</a></li>
+                <li style="animation-delay: 0.3s;"><a target="_blank" href="https://www.awwwards.com/">Awwwards</a></li>
+            </ul>
+
+            <h2 style="animation-delay: 0.4s;">Components</h2>
+            <ul>
+                <li style="animation-delay: 0.4s;"><a target="_blank" href="https://www.fancycomponents.dev/">Fancy Components</a></li>
+                <li style="animation-delay: 0.4s;"><a target="_blank" href="https://21st.dev/">21st.dev</a></li>
+            </ul>
+
+            <h2 style="animation-delay: 0.5s;">Design Systems</h2>
+            <ul>
+                
+            </ul>
+        </div>
+    </body>
+</html>
