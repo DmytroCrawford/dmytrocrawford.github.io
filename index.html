@@ -1,125 +1,115 @@
-<!-- built with temper: https://temper.one -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        
         <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width,initial-scale=1.0">
-                <title>Dmytro Crawford</title>
-                
-                
-                <link class="googlefont" href="
-    https://fonts.googleapis.com/css2?family=Ovo&display=swap
-    " rel="stylesheet">
-    
-    
-    <style type="text/css" style="display:block">
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-size: 100%;
-            font-weight: inherit;
-        }
-        
-        body {
-            background: #ffffff;
-            color: #000fff;
-            width: 100%;
-        }
-        
-        /* FONT FACE */
-        
-        
-        /* PAGE */
-        .text {
-            font-family:"Ovo", serif;
-            display: none;
-            opacity: 0;
-            font-size: 4.4vw;
-            line-height: 4.4vw;
-            font-variant-ligatures: normal;
-            visibility: hidden;
-        }
-        
-        h1 {
-            font: inherit;
-            line-height: inherit;
-            letter-spacing: inherit;
-        }
-        
-        .text p, h1 {
-            opacity: 0;
-            display: none;
-            visibility: hidden;
-            animation: fadein .2s forwards ease-out;
-            padding: 1.76vw 10vw 2.64vw 3vw;
-        }
-        
-        .text a {
-            text-decoration: underline;
-            text-decoration-skip: ink;
-            color: inherit;
-            padding-left: .5vw;
-            padding-right: .5vw;
-            margin-left: -.5vw;
-            margin-right: -.5vw;
-            cursor: pointer;
-        }
-        
-        .text a:hover {
-            text-decoration: none;
-        }
-        
-        .text a:focus {
-            text-decoration: none;
-            outline: solid 4px rgba(0,0,0,.4);
-        }
-        
-        ::selection {
-            background: #000;
-            background: rgba(0,0,0,.99);
-            color: #fff;
-        }
-        
-        @keyframes fadein {
-            0% {
-                opacity: 0;
-                margin-top: 1.5vw;
-                visibility: hidden;
-                
-            }
-            
-            100% {
-                opacity: 1;
-                margin-top: 0;
-                visibility: visible;
-            }
-        }
-    </style>
-    
-    </head>
-    <body style="display:none;">
-        <div class="text">
-            <h1 style="animation-delay: .1s;">Hey, my name is Dmytro. I currently attend the University of Michigan Studying Computer Science and Math. I'm also a member of <a target="_blank" href="https://v1michigan.com/">V1</a> and help student builders at Michigan bring there ideas to life.</h1>
-            <p style="animation-delay: 0.2s;">Thus far I have Interned at Microsoft twice and run my own agency called Koko Solutions which also operates <a target="_blank" href="https://twitter.com/VisualBytesInc">Visual Bytes</a>.</p>
-            <p style="animation-delay: 0.3s;">I've worked on some pretty fun projects. I'm currently creating a <a target="_blank" href="https://github.com/DmytroCrawford/azureloy">cloud optimization tool</a>. Built a <a target="_blank" href="https://github.com/michaelfromyeg/simple-english">chrome extension</a> with some pretty amazing people.</p>
-            <p style="animation-delay: 0.4s;">Feel free to connect with me on <a target="_blank" href="https://www.linkedin.com/in/dmytrocrawford/">Linkedin</a> or add me on <a target="_blank" href="https://twitter.com/DmytroCrawford">Twitter</a>.</p>
-            <p style="animation-delay: 0.5s;">Let's build something amazing.</p>
-        </div>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-        <div class="links" style="animation: fadein 0.5s forwards ease-out; animation-delay: 0.6s; opacity: 0; visibility: hidden; margin-top: 2vw; padding: 1.76vw 3vw;">
-            <h2 style="font-size: 3vw; margin-bottom: 1vw;">Links</h2>
-            <ul style="list-style: none; padding: 0;">
-                <li style="margin-bottom: 0.5vw; animation-delay: 0.7s">
-                    <a href="ui-resources.html">UI Resources</a>
-                </li>
-            </ul>
-        </div>
-        
-        <!-- DON’T REMOVE THE FOLLOWING TWO LINES! -->
-        <script type="text/javascript">const fs = 4.4;</script>
-        <script type="text/javascript" src="temper.js"></script>
-        
+        <title>Dmytro Crawford — software engineer &amp; builder</title>
+        <meta name="description" content="Software engineer at Microsoft building AI-powered data-security systems. Founder of VisualBytes, a creative-engineering studio for AI startups. Building UpShft.">
+
+        <link rel="canonical" href="https://dmytrocrawford.github.io/">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://dmytrocrawford.github.io/">
+        <meta property="og:title" content="Dmytro Crawford — software engineer &amp; builder">
+        <meta property="og:description" content="Software engineer at Microsoft building AI-powered data-security systems. Founder of VisualBytes, a creative-engineering studio for AI startups. Building UpShft.">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:creator" content="@DmytroCrawford">
+
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' fill='%23ffffff'/><text x='32' y='45' font-family='Georgia,serif' font-size='32' text-anchor='middle' fill='%23000fff'>DC</text></svg>">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ovo&display=swap" rel="stylesheet">
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-size: 100%;
+                font-weight: inherit;
+            }
+
+            body {
+                background: #ffffff;
+                /* Deliberate. This is #000fff — rgb(0,15,255) — not #0000ff. Do not "correct" it. */
+                color: #000fff;
+                width: 100%;
+            }
+
+            main {
+                font-family: "Ovo", Georgia, serif;
+                font-size: clamp(22px, 4.4vw, 58px);
+                line-height: 1.12;
+                font-variant-ligatures: normal;
+            }
+
+            h1 {
+                font: inherit;
+                line-height: inherit;
+                letter-spacing: inherit;
+            }
+
+            main p,
+            main h1 {
+                opacity: 0;
+                animation: fadein .2s forwards ease-out;
+                padding:
+                    clamp(12px, 1.76vw, 23px)
+                    clamp(18px, 10vw, 180px)
+                    clamp(18px, 2.64vw, 35px)
+                    clamp(18px, 3vw, 54px);
+            }
+
+            main a {
+                color: inherit;
+                text-decoration: underline;
+                text-decoration-skip-ink: auto;
+                padding-inline: .11em;
+                margin-inline: -.11em;
+                cursor: pointer;
+            }
+
+            main a:hover {
+                text-decoration: none;
+            }
+
+            main a:focus-visible {
+                text-decoration: none;
+                outline: solid 4px rgba(0, 0, 0, .4);
+                outline-offset: 2px;
+            }
+
+            ::selection {
+                background: rgba(0, 0, 0, .99);
+                color: #fff;
+            }
+
+            @keyframes fadein {
+                from { opacity: 0; transform: translateY(.28em); }
+                to   { opacity: 1; transform: none; }
+            }
+
+            @media (prefers-reduced-motion: reduce) {
+                main p,
+                main h1 {
+                    animation: none;
+                    opacity: 1;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1 style="animation-delay: .1s;">Hey, my name is Dmytro. I'm a software engineer at <a href="https://www.microsoft.com/">Microsoft</a>, where I build AI-powered data-security systems used by some of the largest companies in the world. Michigan CS + math before that, with two Microsoft internships on the way in.</h1>
+
+            <p style="animation-delay: .2s;">I also run <a target="_blank" rel="noopener" href="https://x.com/VisualBytesInc">VisualBytes</a>, a creative-engineering studio for AI startups. We've shipped 10+ launches for teams like <a target="_blank" rel="noopener" href="https://agentmail.to">AgentMail</a> (YC S25), <a target="_blank" rel="noopener" href="https://browserbase.com">Browserbase</a>, and <a target="_blank" rel="noopener" href="https://rox.com">Rox</a> — including AgentMail's seed launch video. <a target="_blank" rel="noopener" href="https://x.com/haakamaujla/status/2031505382846378337">Watch it here</a>.</p>
+
+            <p style="animation-delay: .3s;">Nights and weekends I'm building <a target="_blank" rel="noopener" href="https://upshft.com">UpShft</a> — a live telemetry platform for racers and their teams.</p>
+
+            <p style="animation-delay: .4s;">Connect on <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/dmytrocrawford/">LinkedIn</a>, find me on <a target="_blank" rel="noopener" href="https://x.com/DmytroCrawford">X</a>, or read code on <a target="_blank" rel="noopener" href="https://github.com/DmytroCrawford">GitHub</a>.</p>
+
+            <p style="animation-delay: .5s;">Let's build something amazing.</p>
+        </main>
     </body>
 </html>
